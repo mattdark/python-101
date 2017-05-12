@@ -64,36 +64,24 @@ Hello world!
 
 ---
 
-![](img/ninja-ide.png)
-<!-- .element: style="margin-top: -5%;" -->
-## Ninja-IDE
+## Thonny
+#### Python IDE for beginners
 
 ***
 
 ### Download
 
 ```
-ninja-ide.org/downloads
+http://thonny.org/
 
 ```
-
-***
-
-### Ubuntu
-
-```
-sudo apt install ninja-ide
-
-```
-
-<!-- .element: class="fragment" -->
 
 ***
 
 ### Manjaro
 
 ```
-sudo pacman -S ninja-ide
+yaourt -S thonny
 
 ```
 
