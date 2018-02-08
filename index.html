@@ -12,9 +12,8 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-        <link rel="stylesheet" href="ext/reveal.js/css/reveal.css">
-        <link rel="stylesheet" href="moztheme.css" id="theme">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/mozilla.css" id="theme">
 
         <!-- Code syntax highlighting -->
         <link rel="stylesheet" href="railscasts.css">
@@ -37,12 +36,12 @@
         <div class="reveal">
             <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
-                <section data-markdown="slides.md" data-charset="utf-8"></section>
+                <section data-markdown="./slides/slides.md" data-charset="utf-8" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$"></section>
             </div>
         </div>
 
-        <script src="ext/reveal.js/lib/js/head.min.js"></script>
-        <script src="ext/reveal.js/js/reveal.js"></script>
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
 
         <script>
             // Full list of configuration options available at:
@@ -59,10 +58,10 @@
 
                 // Optional reveal.js plugins
                 dependencies: [
-                    { src: 'ext/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                    { src: 'ext/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'ext/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'ext/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return true; }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: './plugin/highlight/highlight.js', async: true, condition: function() { return true; }, callback: function() { hljs.initHighlightingOnLoad(); } },
                 ]
             });
         </script>
