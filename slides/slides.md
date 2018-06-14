@@ -2,7 +2,7 @@
 <!-- .element: style="margin-top: -5%;" -->
 ## Python 101
 
-#### [Mario Garcia](http://mariog.xyz) · [@mariogmd](https://twitter.com/mariogmd)
+#### [Mario Garcia](https://mattdark.github.io) · [@mariogmd](https://twitter.com/mariogmd)
 
 ---
 
