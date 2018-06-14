@@ -8,8 +8,6 @@
 
 ## What is Python?
 
-----
-
 ---
 
 ## Download Python
@@ -27,7 +25,7 @@ python.org/downloads
 
 - Available for Windows, GNU/Linux, Mac
 - Support for x86, x86-64 & ARM<!-- .element: class="fragment" -->
-- Python 2.7.13 & Python 3.6.1<!-- .element: class="fragment" -->
+- Python 2.7.15 & Python 3.6.5<!-- .element: class="fragment" -->
 
 ----
 
@@ -59,7 +57,7 @@ sudo pacman -S python
 
 ## Python 2.7.x vs Python 3.6.x
 
-- Sintax slightly different<!-- .element: class="fragment" -->
+- Syntax slightly different<!-- .element: class="fragment" -->
 - Compatibility with libraries<!-- .element: class="fragment" -->
 
 ----
@@ -72,11 +70,17 @@ sudo pacman -S python
 
 ----
 
-### Python 3.6.1
+### Python 3.6.5
 
 ```
   print("Hello world!")
 ```
+
+---
+
+### Python 2.7.x countdown
+
+- Support until January 1st, 2020
 
 ---
 
