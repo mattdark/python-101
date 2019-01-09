@@ -1,4 +1,4 @@
-![](img/python.png)
+![](assets/reveal.js/img/python.png)
 <!-- .element: style="margin-top: -5%;" -->
 ## Python 101
 
